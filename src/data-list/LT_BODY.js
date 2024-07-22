@@ -27,7 +27,7 @@ export const LT_BODY = {
       "Ofrecemos lámparas de proyectores de alta calidad y larga duración. Compatibles con varias marcas, con precios competitivos y envío rápido. Mejore su proyección con nuestro soporte especializado.",
     image: {
       imageUrl: "/images/about-us.webp",
-      imageAlt: "Image 1",
+      imageAlt: "Proyector proyectando una pelicula en una sala.",
     },
   },
   SERVICES: {
@@ -35,27 +35,27 @@ export const LT_BODY = {
     list: [
       {
         imgUrl: "/images/services/imagen-borrosa.webp",
-        name: "",
+        name: "Imagen borrosa.",
       },
       {
         imgUrl: "/images/services/imagen-con-puntos.webp",
-        name: "",
+        name: "Imagen con puntos.",
       },
       {
         imgUrl: "/images/services/imagen-distorsionada.webp",
-        name: "",
+        name: "Imagen distorsionada.",
       },
       {
         imgUrl: "/images/services/mensaje-sin-senial.webp",
-        name: "",
+        name: "Imagen de mensaje sin señal.",
       },
       {
         imgUrl: "/images/services/proyector-se-sobrecalienta.webp",
-        name: "",
+        name: "Imagen de proyector se sobrecalienta.",
       },
       {
         imgUrl: "./images/services/apaga-y-reinicia.webp",
-        name: "",
+        name: "Imagen de se apara y reinicia un proyector.",
       },
     ],
   },
@@ -64,15 +64,15 @@ export const LT_BODY = {
     list: [
       {
         imgUrl: "/images/products/bl-fp280c-optoma.webp",
-        name: "BL-FP280c para OPTOMA",
+        name: "Proyector OPTOMA BL-FP280c",
       },
       {
         imgUrl: "/images/products/elplp71-epson.webp",
-        name: "LMP-D213 para SONY",
+        name: "Proyector SONY LMP-D213",
       },
       {
         imgUrl: "/images/products/lmp-d213-sony.webp",
-        name: "ELPLP71 para EPSON",
+        name: "Proyector EPSON ELPLP71",
       },
     ],
   },
@@ -80,43 +80,43 @@ export const LT_BODY = {
     list: [
       {
         name: "BenQ",
-        imageUrl: "./images/logo-benq.webp",
+        imageUrl: "/images/brands/logo-benq.webp",
       },
       {
         name: "Epson",
-        imageUrl: "./images/logo-epson.webp",
+        imageUrl: "/images/brands/logo-epson.webp",
       },
       {
         name: "inFocus",
-        imageUrl: "./images/logo-infocus.webp",
+        imageUrl: "/images/brands/logo-infocus.webp",
       },
       {
         name: "LG",
-        imageUrl: "./images/logo-lg.webp",
+        imageUrl: "/images/brands/logo-lg.webp",
       },
       {
         name: "Optoma",
-        imageUrl: "./images/logo-optoma.webp",
+        imageUrl: "/images/brands/logo-optoma.webp",
       },
       {
         name: "Sony",
-        imageUrl: "./images/logo-sony.webp",
+        imageUrl: "/images/brands/logo-sony.webp",
       },
       {
         name: "Hitachi",
-        imageUrl: "./images/logo-hitachi.webp",
+        imageUrl: "/images/brands/logo-hitachi.webp",
       },
       {
         name: "ViewSonic",
-        imageUrl: "./images/logo-viewsonic.webp",
+        imageUrl: "/images/brands/logo-viewsonic.webp",
       },
       {
         name: "Acer",
-        imageUrl: "./images/logo-acer.webp",
+        imageUrl: "/images/brands/logo-acer.webp",
       },
       {
         name: "Panasonic",
-        imageUrl: "./images/logo-panasonic.webp",
+        imageUrl: "/images/brands/logo-panasonic.webp",
       },
     ],
   },

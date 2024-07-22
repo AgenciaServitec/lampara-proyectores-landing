@@ -4,7 +4,7 @@ import { LT_BODY } from "./LT_BODY.js";
 
 export const LT_SETTINGS = {
   PROJECT: {
-    name: "Servicio Proyectores",
+    name: "Lámparas Proyectores",
     logo: "./images/logo.webp",
     favicon: "./images/logo.webp",
     slogan:
