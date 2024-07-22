@@ -10,7 +10,12 @@ const { data } = Astro.props;
     <div class="seo-section__img">
       {
         !isEmpty(data.image.imageUrl) && (
-          <img src={data.image.imageUrl} alt={data.image.imageAlt} width="200" height="150"  />
+          <img
+            src={data.image.imageUrl}
+            alt={data.image.imageAlt}
+            width="200"
+            height="150"
+          />
         )
       }
     </div>
@@ -61,18 +66,17 @@ const { data } = Astro.props;
     &__img {
       width: 100%;
       height: 20em;
+      padding: 0.1rem;
       img {
         width: 100%;
         height: 100%;
-        border-radius: 1em;
-        object-fit: contain;
+        object-fit: cover;
       }
     }
 
     &__text {
       text-align: left;
       font-size: 1.2rem;
-
     }
   }
 </style>

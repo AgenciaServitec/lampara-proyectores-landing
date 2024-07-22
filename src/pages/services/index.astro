@@ -1,29 +1,24 @@
 ---
 import { BaseLayout } from "../../layouts";
-import { Button, CardProduct, Title } from "../../components";
-import { services } from "../../data-list";
+import { Button, Services } from "../../components";
+import { LT_SETTINGS } from "../../data-list";
+
+const { BODY } = LT_SETTINGS;
 ---
 
-<BaseLayout title="Productos">
-  <main>
-    <Title title="NUESTROS">Servicios</Title>
-    <section class="card-list">
-      {
-        services.map((product, index) => (
-          <CardProduct key={index} imagePath={product?.imagePath} aria-label="Servicio" />
-        ))
-      }
-    </section>
+<BaseLayout title="Servicios">
+  <section class="section-services">
+    <Services title={BODY.SERVICES?.title} list={BODY.SERVICES?.list} />
     <section class="quote-button">
       <a href="/contact">
-        <Button type="tertiary">Cotizar Proyector</Button>
+        <Button type="tertiary">Cotiza tú Servicio</Button>
       </a>
     </section>
-  </main>
+  </section>
 </BaseLayout>
 
 <style lang="scss">
-  main {
+  .section-services {
     width: 100%;
     padding: 12em 2em 2em 2em;
     @media (max-width: 576px) {
