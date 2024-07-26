@@ -7,11 +7,12 @@ import { LT_SETTINGS } from "../data-list";
 
 interface Props {
   title?: string;
+  googleTag?: boolean;
 }
 
 const { PROJECT } = LT_SETTINGS;
 
-const { title = PROJECT.name } = Astro.props;
+const { title = PROJECT.name, googleTag } = Astro.props;
 ---
 
 <!doctype html>
@@ -40,6 +41,15 @@ const { title = PROJECT.name } = Astro.props;
 
       gtag("config", "AW-16646516021");
     </script>
+
+    {googleTag && (
+      //Event snippet for Vista de página conversion page
+    <script>
+      gtag("event", "conversion", {
+        send_to: "AW-16646516021/ChjVCIGNhsYZELXa1oE-",
+      });
+    </script>)}
+    
   </head>
   <body>
     <div class="general-wrapper">
